@@ -13,9 +13,15 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    height: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 a {
@@ -27,8 +33,8 @@ a {
 /* CONTAINER */
 
 .container {
-    max-width: 1260px;
     width: 100%;
+    max-width: 1260px;
     padding-left: 30px;
     padding-right: 30px;
     margin-left: auto;
